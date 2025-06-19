@@ -1,0 +1,19 @@
+Execute the word with a Statement
+
+#include <stdio.h>
+
+int main() {
+    char input[100];
+    char firstWord[100];
+
+    // Read a line of input including spaces
+    fgets(input, sizeof(input), stdin);
+
+    // Extract the first word from input
+    sscanf(input, "%s", firstWord);
+
+    // Print the output statement
+    printf("May I know how to learn %s!!!...\n", firstWord);
+
+    return 0;
+}
