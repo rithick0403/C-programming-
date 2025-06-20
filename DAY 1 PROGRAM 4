@@ -1,0 +1,19 @@
+write the program to execute the decimal values.
+
+#include <stdio.h>
+
+int main() {
+    float value;
+
+  
+    scanf("%f", &value);
+
+ 
+    printf("%.5f\n", value); 
+    printf("%.4f\n", value);  
+    printf("%.3f\n", value);  
+    printf("%.1f\n", value);  
+    printf("%.0f\n", value);  
+
+    return 0;
+}
