@@ -1,0 +1,29 @@
+Math Functions
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float f;
+    int squareInput, base, exponent;
+
+
+    scanf("%f", &f);
+    scanf("%d", &squareInput);
+    scanf("%d", &base);
+    scanf("%d", &exponent);
+
+ 
+    int floorValue = (int)floor(f);
+    int ceilValue = (int)ceil(f);
+    int sqrtValue = (int)sqrt(squareInput);
+    int powValue = (int)pow(base, exponent);
+
+  
+    printf("%d\n", floorValue);
+    printf("%d\n", ceilValue);
+    printf("%d\n", sqrtValue);
+    printf("%d\n", powValue);
+
+    return 0;
+}
