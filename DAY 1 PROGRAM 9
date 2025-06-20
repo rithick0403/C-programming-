@@ -1,0 +1,19 @@
+Float Formation
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float value;
+
+ 
+    scanf("%f", &value);
+
+  
+    printf("%f\n", value);      
+    printf("%.4f\n", value);    
+    printf("%.2f\n", value);     
+    printf("%.0f\n", value);    
+
+    return 0;
+}
