@@ -1,0 +1,18 @@
+Type Casting
+
+#include <stdio.h>
+
+int main() {
+    int intValue;
+    char charValue;
+
+   
+    scanf("%d", &intValue);
+    scanf(" %c", &charValue);
+
+   
+    printf("Integer of %d is %c\n", intValue, intValue);
+    printf("Character of %c is %d\n", charValue, charValue);
+
+    return 0;
+}
