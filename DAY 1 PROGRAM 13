@@ -1,0 +1,32 @@
+Shape Calculation-Area
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int side, length, breadth, radius, base, height;
+    float areaSquare, areaRectangle, areaCircle, areaTriangle;
+    float pi = 3.1416;
+
+    
+    scanf("%d", &side);     
+    scanf("%d", &length);   
+    scanf("%d", &breadth); 
+    scanf("%d", &radius);  
+    scanf("%d", &base);     
+    scanf("%d", &height);  
+
+
+    areaSquare = side * side;
+    areaRectangle = length * breadth;
+    areaCircle = pi * radius * radius;
+    areaTriangle = 0.5 * base * height;
+
+  
+    printf("Area of Square=%.0f\n", areaSquare);
+    printf("Area of Rectangle=%.0f\n", areaRectangle);
+    printf("Area of Circle=%.2f\n", areaCircle);
+    printf("Area of Triangle=%.0f\n", areaTriangle);
+
+    return 0;
+}
