@@ -1,0 +1,19 @@
+Sum of two Numbers 171
+
+#include <stdio.h>
+
+int main() {
+    int a, b, sum;
+
+    // Reading input
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    // Calculating sum
+    sum = a + b;
+
+    // Printing result
+    printf("Addition of two Numbers:%d\n", sum);
+
+    return 0;
+}
