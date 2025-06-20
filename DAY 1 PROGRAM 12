@@ -1,0 +1,30 @@
+Volume of the shape
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int l, b, h, r;
+    float cuboidVolume, cylinderVolume, coneVolume, sphereVolume;
+    float pi = 3.1416;
+
+    // Read inputs
+    scanf("%d", &l);
+    scanf("%d", &b);
+    scanf("%d", &h);
+    scanf("%d", &r);
+
+    // Volume calculations
+    cuboidVolume = l * b * h;
+    cylinderVolume = pi * r * r * h;
+    coneVolume = (pi * r * r * h) / 3.0;
+    sphereVolume = (4.0 / 3.0) * pi * r * r * r;
+
+    // Output with 2 decimal places
+    printf("Volume of Cubiod=%.2f\n", cuboidVolume);
+    printf("Volume of Cylinder=%.2f\n", cylinderVolume);
+    printf("Volume of Cone=%.2f\n", coneVolume);
+    printf("Volume of Shpere=%.2f\n", sphereVolume);
+
+    return 0;
+}
