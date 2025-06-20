@@ -1,0 +1,21 @@
+Decimal Formatting
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float value;
+
+  
+    scanf("%f", &value);
+
+    float truncated = (int)(value * 100) / 100.0;
+
+  
+    float rounded = roundf(value * 100) / 100;
+
+    printf("%.2f\n", truncated);
+    printf("%.2f\n", rounded);
+
+    return 0;
+}
