@@ -1,0 +1,18 @@
+Value Performance
+
+#include <stdio.h>
+
+int main() {
+    int intValue;
+    float floatValue;
+
+   
+    scanf("%d", &intValue);
+    scanf("%f", &floatValue);
+
+ 
+    printf("%d\n", intValue);
+    printf("%.2f\n", floatValue);
+
+    return 0;
+}
