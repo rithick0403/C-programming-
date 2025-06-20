@@ -1,0 +1,29 @@
+Harry potter and the sorcerer's stone
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main() {
+    char number[10];
+    int first_digit, last_digit, result;
+
+    scanf("%s", number);
+
+    if (number[0] == '-') {
+        first_digit = number[1] - '0';
+    } else {
+        first_digit = number[0] - '0';
+    }
+
+    int len = strlen(number);
+    last_digit = number[len - 1] - '0';
+
+    result = first_digit + last_digit;
+
+  
+    printf("%d\n", result);
+
+    return 0;
+}
